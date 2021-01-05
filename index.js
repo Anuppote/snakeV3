@@ -35,28 +35,28 @@ document.querySelector(".btn1").addEventListener("click", function () {
   downPressed = false;
   leftPressed = false;
   upPressed = true;
-  window.navigator.vibrate(10);
+  window.navigator.vibrate(30);
 });
 document.querySelector(".btn2").addEventListener("click", function () {
   rightPressed = false;
   downPressed = false;
   leftPressed = true;
   upPressed = false;
-  window.navigator.vibrate(10);
+  window.navigator.vibrate(30);
 });
 document.querySelector(".btn3").addEventListener("click", function () {
   rightPressed = true;
   downPressed = false;
   leftPressed = false;
   upPressed = false;
-  window.navigator.vibrate(10);
+  window.navigator.vibrate(30);
 });
 document.querySelector(".btn4").addEventListener("click", function () {
   rightPressed = false;
   downPressed = true;
   leftPressed = false;
   upPressed = false;
-  window.navigator.vibrate(10);
+  window.navigator.vibrate(30);
 });
 let canvas = document.querySelector("#myCanvas");
 let context = canvas.getContext("2d");
