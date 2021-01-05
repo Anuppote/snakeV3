@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script
+      src="https://kit.fontawesome.com/642498d38d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Redressed&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="index.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anup's First Game</title>
+  </head>
+  <body>
+    <div class="container">
+      <button type="button" class="btn btn-warning btn-sm btnPlay">PLAY</button>
+    </div>
+    <div class="secondDiv">
+      <div class="scoreDiv">
+        <i class="fas fa-apple-alt"></i>
+      </div>
+      <div class="score">0</div>
+
+      <div class="highScoreDiv">Highscore</div>
+      <div class="highScore">0</div>
+    </div>
+
+    <canvas id="myCanvas" width="362" height="362"></canvas>
+
+    <div class="container-fluid" style="margin: 10px auto 10px auto">
+      <button
+        type="button"
+        class="btn btn-primary btn-sm btn1"
+        style="width: 150px"
+      >
+        Turn Up
+      </button>
+    </div>
+    <div class="container-fluid">
+      <button
+        type="button"
+        class="btn btn-primary btn-sm btn2"
+        style="margin-right: 10px; width: 150px"
+      >
+        Turn Left
+      </button>
+      <button
+        type="button"
+        class="btn btn-primary btn-sm btn3"
+        style="margin-left: 10px; width: 150px"
+      >
+        Turn Right
+      </button>
+    </div>
+    <div class="container-fluid" style="margin: 10px auto 10px auto">
+      <button
+        type="button"
+        class="btn btn-primary btn-sm btn4"
+        style="width: 150px"
+      >
+        Turn Down
+      </button>
+    </div>
+
+    <script src="index.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
